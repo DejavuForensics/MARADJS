@@ -1,6 +1,19 @@
 # MARADJS
 (Machine Learning Repository Applied to Dynamic JavaScript Files Analysis)
 
+```
+de Lima, S.M.L., Souza, D.M., Pinheiro, R.P. et al. 
+Next-generation antivirus for JavaScript malware detection based on dynamic features. 
+Knowl Inf Syst (2023). 
+https://doi.org/10.1007/s10115-023-01978-4
+```
+
+## How to use our dataset in Python with ELM (Extreme Learning Machine)
+
+python [melm.py](https://github.com/DejavuForensics/mELM/melm.py) -tall [Antivirus_Dataset_JavaScript_mELM_format.csv](
+https://github.com/DejavuForensics/MARADJS/blob/master/Antivirus_Dataset_JavaScript_mELM_format.zip) 
+-ty 1 -nh 500 -af dilation -v
+
 ## Limitation of Commercial Antiviruses
 
 In spite of being questioned there is more than one decade, the modus operandi of the antiviruses is based on signatures when the suspicious file is consulted in databases named blacklist. Therefore, it is only necessary that the hash of the suspect record is not detected by the antivirus so that the malware is not recognized. The hash acts as an exclusive identifier for a specific record. So, knowing the limitations of the commercial antiviruses, it is not a complicated assignment to make and convey variations of a malicious application. To do this, it is sufficient to form small changes to the first malware with routines that, effectively, have no utility for the program, such as repetition loops and conditional deviations without enlightening in their systems. These futile alterations, however, make the hash of the malware changed from the first malware hash. Thus, malware, expanded with broken schedules, will not be recognized by the antivirus, which cataloged the first noxious record. It is widely known that there are botnets capable for creating and conveying variations, in a computerized way, of the same unique malware. We conclude that antiviruses, based on signatures, have no action when submitted to variations of the same malware.
