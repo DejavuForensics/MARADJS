@@ -4,7 +4,7 @@
 ```
 de Lima, S.M.L., Souza, D.M., Pinheiro, R.P. et al. 
 Next-generation antivirus for JavaScript malware detection based on dynamic features. 
-Knowl Inf Syst (2023). 
+Knowledge and Information Systems 66, 1337–1370 (2024).
 https://doi.org/10.1007/s10115-023-01978-4
 ```
 
@@ -12,7 +12,7 @@ https://doi.org/10.1007/s10115-023-01978-4
 
 python [melm.py](https://github.com/DejavuForensics/mELM/melm.py) -tall [Antivirus_Dataset_JavaScript_mELM_format.csv](
 https://github.com/DejavuForensics/MARADJS/blob/master/Antivirus_Dataset_JavaScript_mELM_format.zip) 
--ty 1 -nh 500 -af dilation -v
+-kfold 10 -virusNorm -ty 1 -nh 500 -af dilation -v
 
 ## Limitation of Commercial Antiviruses
 
